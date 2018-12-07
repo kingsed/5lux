@@ -1,0 +1,41 @@
+.app_mobile_index_box{
+    width: 100%;
+    height: 499px;
+    background: url(../../img/about/app_mobile_index.jpg) no-repeat;
+}
+.app_content_titl{
+    width: 1100px;
+    margin: 0 auto;
+}
+.app_content_titl ul{
+    width: 100%;
+}
+.app_content_titl li{
+    float: left;
+    margin-left: 120px;
+}
+.app_saoma{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.app_saoma img{
+    width: 100px;
+    height: 100px;
+}
+.app_content_titl span{
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding-left: 27px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: left;
+    background: url(../../img/about/down_icon_app.png) left no-repeat;
+    font-family: "方正兰亭黑_GBK";
+    font-size: 16px;
+}
+.app_content_titl span a{
+    color:inherit;
+}

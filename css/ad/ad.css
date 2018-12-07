@@ -1,0 +1,68 @@
+body,ul{margin:0;padding:0;font-family:"微软雅黑";}
+ul{list-style:none;}
+a{text-decoration:none;}
+a,img{display:block;}
+
+/* 清浮动 */
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+}
+
+/* centent */
+.main_box{
+    width:100%;
+    background:#efefef;
+}
+.main{
+    width:1000px;
+    margin:0 auto;
+}
+.main .video{
+    text-align:center;
+    background:url(../../img/ad/03_j.jpg) no-repeat;
+}
+.main .main_map{
+    background:#000;
+    padding:0 5px;
+}
+.main .main_map ul li{
+    float:left;
+    padding:0 5px;
+}
+.main .main_map ul li span{
+    display:block;
+    text-align:center;
+    height:50px;
+    line-height:50px;
+    color:#eee;
+}
+
+/* nav */
+.nav_list{
+    position:fixed;
+    top:30px;
+    right:10px;
+}
+.nav_list .list{
+    border:1px solid #cacaca;
+    background:#fff;
+    text-align:center;
+}
+.nav_list .list li{
+    height:36px;
+    line-height:36px;
+    border-bottom:1px solid #cacaca;
+}
+.nav_list .list li a{
+    color:#2d2d2d;
+    font-size:12px;
+}
+.nav_list .list .list_item{
+    height: 60px;
+    border:0;
+    cursor:pointer;
+}

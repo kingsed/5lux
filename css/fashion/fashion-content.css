@@ -1,0 +1,129 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1 "微软雅黑",tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; color:#333;} 
+a:hover { text-decoration:none;} 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+fieldset, img ,button,input{ border:0; outline:none;} 
+button, input, select, textarea { font-size:100%; }
+
+
+/* 内容 */
+.prolist_con{
+    width: 100%;
+    background-color:#edecec;
+}
+.promote_list{
+    width: 1020px;
+    margin: 0 auto;
+}
+.promote_list ul{
+    width: 1020px;
+    overflow: hidden;
+    zoom: 1;
+}
+.promote_list ul li{
+    width: 340px;
+    float: left;
+    padding: 13px 0px;
+}
+.prolist_box{
+    width: 315px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.prolist_img img{
+    width: 315px;
+    height: 165px;
+}
+.prolist_text{
+    background-color: #fff;
+    padding: 1px 0px 0px 10px;
+    text-align: left;
+    height: 51px; 
+}
+.prolist_text p{
+    height: 24px;
+    line-height: 24px;
+}
+.pro_type{
+    position: relative;
+}
+.pro_type b{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../../img/list/new_5luxbg.png) no-repeat;
+    background-position: -328px -53px;
+}
+.pro_type span{
+    display: block;
+    margin-left: 22px;
+}
+.blank_70{
+    clear: both;
+    height: 70px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}
+.pages_con{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.pages{
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+}
+.pages_des{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+.pages_des span, .pages_des a{
+    display: inline-block;
+    width: 34px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 2px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+.pages_des span{
+    padding: 0 13px;
+    border:1px solid #c69c6d;
+}
+.pages_nums{
+    padding: 0 13px;
+    color: #666;
+    border:1px solid #c69c6d;
+}
+.pages_des .active, .pages_des a:hover , .pages_des span:hover{
+    background-color: #c69c6d;
+    color: #fff;
+}
+/* .pages_des a.pages_btn{
+    width: 50px;
+    padding: 0 13px;
+    border:1px solid #c69c6d;
+} */
+.blank_55{
+    clear: both;
+    height: 55px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}

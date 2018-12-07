@@ -1,0 +1,281 @@
+.w{
+    width: 1210px;
+    margin:0 auto;
+}
+.login-header {
+    height: 98px;
+}
+.login-logo {
+    display: inline-block;
+    height: 98px;
+    width: 244px;
+    background-size: 244px 98px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/about/logo.jpg);
+    vertical-align: middle;
+}
+.header-line {
+    display: inline-block;
+    width: 2px;
+    height: 44px;
+    vertical-align: middle;
+    background-color: #ccc;
+    margin: 0 18px;
+}
+.header-text {
+    display: inline-block;
+    font-size: 22px;
+    color: #999;
+    vertical-align: middle;
+}
+.header-right{
+    float: right;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 37px 0;
+}
+.header-right i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    padding-right: 10px;
+    background: url(../../img/about/phone-logo.png) no-repeat;
+    vertical-align: middle;
+} 
+.header-right p{
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    color: #666;
+    font-size: 13px;
+}
+.login-warpper{
+    background-color: #262626;
+    width: 100%;
+}
+.login-center-wp{
+    background: url(../../img/about/login_bg.jpg);
+    padding: 30px 0;
+    background-size: 100% 584px;
+}
+.login-c-right{
+    width: 400px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    float: right;
+    background: #fff;
+    padding: 32px 0 0;
+}
+.login-c-right .log-title{
+    height: 22px;
+    line-height: 22px;
+    margin: 0 20px;
+    text-align: center;
+}
+.log-title-list{
+    float: left;
+    font-size: 20px;
+    color: #999;
+    width: 49%;
+    cursor: pointer;
+}
+.log-title-list:nth-child(2)::after{
+    content: "";
+    float: left;
+    display: inline-block;
+    height: 22px;
+    width: 2px;
+    background: #999;
+}
+.list-active{
+    color: #000;
+}
+.log-body{
+    width: 100%;
+    height: 380px;
+    box-sizing: border-box;
+}
+.is-hook{
+    height: 100%;
+}
+.is-qcode-con{
+    text-align: center;
+    padding: 72px 0;
+}
+.qcode-hook{
+    height: 165px;
+    display: inline-block;
+}
+.qc-img{
+    vertical-align: top;
+    margin-left: 20px;
+    height: 165px;
+    display: none;
+    width: 0px;
+}
+.start-text{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #999;
+}
+.start-text a:first-child{
+    color: #ff9900;
+}
+.start-text a:last-child{
+    color: #999;
+}
+.q-faild{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: url(../../img/about/qcode.png);
+}
+.q-faild-mk{
+    width: 160px;
+    height: 160px;
+    background: url(../../img/about/mark.png);
+}
+.q-faild-mk-tt{
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    padding: 48px 0 20px;
+    color: #fff;
+    text-align: center;
+}
+.q-faild-mk a{
+    display: block;
+    font-size: 14px;
+    width: 100px;
+    height: 28px;
+    color: #fff;
+    line-height: 28px;
+    margin: 0 auto;
+    background: url(../../img/about/orange-border.png);
+}
+.other-type{
+    height: 16px;
+    width: 100%;
+    background:url(../../img/about/other-type.jpg)
+}
+.is_ot{
+    height: 74px;
+    position: relative;
+    margin: 0 94px;
+}
+.ul-hook{
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.li-hook{
+    height: 32px;
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+.is_wx{
+    background: url(../../img/about/is_wx.png);
+}
+.is_wx:hover{
+    background: url(../../img/about/is_wx_sel.png);
+}
+.is_qq{
+    background: url(../../img/about/is_qq.png);
+}
+.is_qq:hover{
+    background: url(../../img/about/is_qq_sel.png);
+}
+.is_wb{
+    background: url(../../img/about/is_wb.png);
+}
+.is_wb:hover{
+    background: url(../../img/about/is_wb_sel.png);
+}
+.i-hook{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.is_user{
+    display: none;
+}
+.is_user form{
+    padding: 18px 31px 0;
+}
+.inp-hook{
+    margin-top: 16px;
+    width: 296px;
+    height: 48px;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.error-tip{
+    height: 54px;
+    text-align: center;
+}
+.error-tip-wp{
+    color: #f62b0f;
+    height: 14px;
+    line-height: 14px;
+    margin: 20px 0;
+    font-size: 0;
+    display: inline-block;
+    display: none;
+}
+.tip-logo{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../../img/about/close.png) 0 0 no-repeat;
+    vertical-align: middle;
+}
+.tip-text{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.sub-btn{
+    width: 338px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.sub-btn:hover{
+    background: #a60000;
+}
+.sub-bottom{
+    margin-top: 20px;
+    height: 14px;
+    line-height: 14px;
+    color: #999;
+    font-size: 14px;
+}
+.sub-bottom-left{
+    float: left;
+}
+.sub-bottom-left p{
+    display: inline-block;
+    
+}
+.sub-bottom-left input{
+    vertical-align: bottom;;
+}
+.sub-bottom-right{
+    float: right;
+}
+.sub-bottom-right a{
+    color: inherit;
+}

@@ -1,0 +1,254 @@
+.c{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 轮播图start  */
+.women_bannr>img{
+	width: 1000px;
+	display: block;
+}
+/* 品牌推荐 */
+.recommend{
+	width: 100%;
+	margin-top: 25px
+}
+.recommend_title{
+	height: 45px;
+}
+.recommend_title>.left{
+	margin-top: 9px;
+	float: left;
+}
+.recommend_title>.right{
+	float: right;
+}
+.recommend_title>.right a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	width: 86px;
+	background:  url("../../img/new/more.png") 0 0 no-repeat;
+	background-size: 86px 45px;
+	color: #000;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 700;
+}
+.recommend_title>.right a:hover{
+	color: red;
+}
+.recommend_content{
+	height: 240px;
+	padding: 20px 0;
+	box-shadow: #a7a7a7 0px 2px 16px;
+}
+.recommend_content .recommend_item{
+	float: left;
+	width: 180px;
+	height: 240px;
+	margin: 0 10px;
+	position: relative;
+}
+.recommend_content .recommend_item>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	text-align: center;
+	line-height: 240px;
+	color: #757272;
+	background: #000;
+	opacity: .5;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;	
+}
+.recommend_content .recommend_item:hover a{
+	display: block;
+}
+.recommend_content .recommend_item img{
+	display: block;
+	width: 180px;
+	height: 240px;
+}
+/* 商品分类 */
+.wares_list{
+	width: 100%;
+	margin: 35px 0;
+}
+.wares_title{
+	width: 100%;
+	height: 35px;
+}
+.wares_title>img{
+	display: block;
+}
+.wares_content{
+	padding: 10px 0;
+	box-shadow: #a7a7a7 0px 2px 16px;
+}
+.wares_item{
+	position: relative;
+	float: left;
+	width: 245px;
+	height: 134px;
+	padding: 8px 0;
+	border-right: 1px dashed #000;
+}
+.wares_item:last-child,.wares_item:nth-child(4){
+	border-right: 1px dashed transparent;
+}
+.wares_item_img{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 8px;
+	left: 18px;
+	background: url("../../img/new/women_44.jpg") 0 0 no-repeat;
+	background-size: 35px 35px;
+}
+.wares_item_list{
+	margin-left: 56px;
+
+}
+.wares_item_list a{
+	display:block;
+	height: 100%;
+	font-size: 12px;
+	text-align: center;
+	padding: 0 5px;
+	color: #757272;
+}
+ .wares_item_list a:hover{
+	color: #fff !important;
+	background:red;
+}
+.wares_item_list .wares_item_title>a{
+	float: left;
+	font-size: 15px;
+	color: #000;
+	font-weight: 700;
+}
+.wares_item_tip{
+	width: 174px;
+	margin-top:3px;
+
+}
+.wares_item_tip>li{
+	float: left;
+	height: 20px;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+/* 背景色 */
+.downbg{
+	width: 100%;
+	background-color: #e6e6e6;
+	padding-bottom:1px;
+	box-shadow: #a7a7a7 0px 2px 16px;
+}
+/* 每个分类 */
+.nenu{
+	width: 1000px;
+	margin: 0 auto 60px;
+	background: #fff;
+}
+.neu_top{
+	height: 90px;
+}
+.neu_top_left{
+	float: left;
+	width: 245px;
+	height: 40px;
+}
+.neu_top_right{
+	height: 90px;
+	float: right;
+}
+.neu_top_right>li{
+	height: 90px;
+	float: left;
+	padding: 0 12px;
+	line-height: 90px;
+}
+.neu_top_right>li>a{
+	color: #757272;
+	font-size: 12px;
+}
+.neu_top_right>li>a:hover{
+	color:#b28247;
+}
+.neu_top_right>li:last-child{
+	padding-right:0px; 
+}
+.neu_top_right>li .last{
+	display: block;
+	height: 45px;
+	width: 80px;
+	background: url("../../img/new/more.png");
+	background-size: 86px 45px;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+}
+.neu_top_right>li .last:hover{
+	color:red;
+}
+.neu_midd{
+	padding: 0 10px;
+	height: 308px;
+}
+.neu_midd_left{
+	float: left;
+	margin-right:9px;
+}
+.neu_midd_left>a{
+	display: block;
+	width: 618px;
+	height: 308px;
+}
+.neu_midd_right a{
+	width: 353px;
+	height: 150px;
+}
+.neu_midd_right_top{
+	margin-bottom: 8px;
+}
+.neu_foot_item{
+	float: left;
+	width: 190px;
+	height: 263px;
+	margin: 25px 5px;
+}
+.neu_foot_item_img{
+	display: block;
+	width: 100%;
+	height: 190px;
+	padding-bottom: 12px;
+	text-align: center;
+	background: #fff;
+}
+.neu_foot_item:hover{
+	background:#e0e0e0;
+	box-shadow: #a7a7a7 0px 4px 10px;
+}
+.neu_foot_item_title{
+	line-height: 32px;
+	text-align: center;
+}
+.neu_foot_item_title>a{
+	color: #000;
+	font-size: 12px;
+}
+.neu_foot_item_title>a:hover{
+	color:#b28247;
+}
+.neu_foot_item_price{
+	font-size: 14px;
+	color: red;
+	text-align: center;
+	line-height: 24px;
+}

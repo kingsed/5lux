@@ -1,0 +1,111 @@
+.question_and_help{
+    width: 1210px;
+    margin:0 auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.guidecenter_left{
+    width: 165px;
+    background-color: #f3f2f2;
+    float: left;
+    border:1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.guidecenter_title{
+    border-bottom: 1px solid #ccc;
+    background: rgb(242, 242, 242);
+    height: 45px;
+    line-height: 45px;
+}
+.guidecenter_title:hover{
+    background-color: #fff;
+}
+.guidecenter_title li{
+    font-size: 14px;
+    padding-left: 18px;
+}
+.guidecenter_title li i{
+    float: left;
+    width: 12px;
+    height: 7px;
+    margin-right: 12px;
+    margin-top: 20px;
+    background-position: -448px -325px;
+    background:url(../../img/about/1.png) no-repeat -448px -325px;
+}
+.guidecenter_title li a{
+    color:#d00000;
+    float: left;
+}
+.guidecenter_title li a:hover{
+    color:#b28247;
+}
+.guidecenter_items{
+    padding: 0 10px;   
+}
+.guidecenter_items li{
+    padding-left: 32px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dashed #c9c9c9;
+}
+.guidecenter_items li a{
+    color: #000;   
+}
+.guidecenter_items li a:hover{
+    color: #d00000;
+    text-decoration: underline;
+}
+.guidecenter_items li .checkon{
+    color: #ff0000;
+}
+.guidecenter_content{
+    float: left;
+    margin-left: 20px;
+    border:1px solid #ccc;
+    width: 998px;
+}
+.gui_cont_list{
+    padding: 24px;
+}
+.gui_cont_list .tfir-p{
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.gui_cont_list em span{
+    color:red;
+    font-family: simsun;
+    line-height: 1.5;
+}
+.gui_cont_list strong span{
+    font-size: 18px;
+}
+.tsec-p img{
+    display: block;
+}
+.gui_intro{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.gui_intro2{
+    margin-bottom: 32px;
+}
+.founder span{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.founder img{
+    display: block;
+    margin-bottom: 18px;
+}
+.founder-intro{
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.founder-intro2{
+    margin-bottom: 114px;
+}

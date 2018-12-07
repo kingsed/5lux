@@ -1,0 +1,196 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1 "微软雅黑",tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; color:#333;} 
+a:hover { text-decoration:none;} 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img ,button,input{ border:0; outline:none;} 
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+/* 清浮动 */
+.clearfix:after{
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.clearfix{
+	*zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 身体部分 */
+.promote_filter{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #dbdbdb;
+}
+.promote_filter dl{
+    width: 1000px;
+    overflow: hidden;
+    zoom: 1;
+    padding: 24px 0px;
+}
+.promote_filter dl dt {
+    margin: 0px 20px 0px 0px;
+}
+.promote_filter dl dt, .promote_filter dl dd {
+    width: 96px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+.promote_filter dl dd {
+    margin-right: 30px;
+}
+.promote_filter dl dd a.check {
+    background-color: #000;
+    color: #fff;
+}
+.promote_filter dl dd a {
+    display: block;
+    width: 96px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color: #fff;
+    text-align: center;
+}
+.promote_filter dl dd a:hover{
+    background-color:#df1a22;
+    color:#fff;
+}
+.blank{
+    clear: both;
+    height: 30px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}
+#sildes_main{
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#sildes{
+    width: 1010px;
+    position: relative;
+}
+.sildes_container{
+    width: 1010px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.sildes_control{
+    position: relative;
+    width: 3030px;
+    height: 260px;
+    left: -1010px;
+}
+.sildes_content{
+    position: absolute;
+    top: 0px;
+    left: 1010px;
+    display: none;
+    z-index: 0;
+}
+.active{
+    display: block;
+    z-index: 5;
+}
+.sildes_content ul{
+    width: 1010px;
+    overflow: hidden;
+    zoom: 1;
+}
+.sildes_content ul li{
+    width: 505px;
+    float: left;
+} 
+.sildes_img{
+    width: 495px;
+    margin: 0 auto;
+} 
+.sildes_img img{
+    width: 495px;
+    height: 260px;
+}
+#sildes .next, #sildes .prev {
+    width: 20px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 14;
+    background: url(../../img/list/new_5luxbg.png) no-repeat;
+}
+
+#sildes .prev {
+    background-position: -44px -80px;
+}
+#sildes .next {
+    left: 980px;
+    background-position: -68px -80px;
+}
+#pro_type{
+    width: 1030px;
+    margin: 0 auto;
+}
+#pro_type ul{
+    width: 1015px;
+    overflow: hidden;
+    zoom: 1;
+    margin-left: 15px;
+}
+#pro_type ul li.pro_title{
+    width: 270px;
+    margin-right: 9px;
+}
+#pro_type ul li{
+    width: 353px;
+    height: 184px;
+    float: left;
+    overflow: hidden;
+    display: inline;
+    margin-right: 15px;
+}
+.jhl_bg{
+    background: url(../../img/list/pro_jhl_bg.jpg) repeat;
+}
+.pro_text{
+    text-align: left;
+    margin: 124px 30px;
+}
+#pro_type ul li img {
+    width: 353px;
+}
+.jmx_bg{
+    background:url(../../img/list/pro_jmx_bg.jpg);
+}
+.sszn_bg{
+    background:url(../../img/list/pro_sszn_bg.jpg);
+}
+.ppzc_bg{
+    background:url(../../img/list/pro_ppzc_bg.jpg);
+}
+.blank_70{
+    clear: both;
+    height: 70px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}

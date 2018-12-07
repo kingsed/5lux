@@ -1,0 +1,310 @@
+ /* 最新上架start */
+
+.c{
+    width: 1000px;
+    margin: 0 auto;
+}
+.woman_banner{
+    margin-top:-1px;
+}
+.bge6e6e6e{
+    width: 100%;
+    height: auto;
+    background-color: #e6e6e6;
+}
+.woman_banner a{
+    display: block;
+}
+.woman_banner a img{
+    display: block;
+    width: 100%;
+}
+/* 最新上架广告区 end
+筛选start   */
+.list_cata_wrap{
+    height: 40px;
+    background-color: #292a2c;
+}
+.list_cata_wrap_item{
+    float: left;
+    position: relative;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 9px;
+}
+.list_cata_wrap_item a{
+    color: #fff;
+    line-height:22px;
+}
+.list_cata_wrap_item .jiantouyou{
+    margin-left:3px;
+    display: inline-block;
+    width: 10px;
+    height: 9px;
+    background:  url("../../img/new/attribute_bg.png") -20px -75px no-repeat;
+}
+.list_cata_wrap_item .all_list{
+    display: inline-block;
+    margin-right: 6px;
+    height: 41px;
+    width: 83px;
+    line-height: 40px;
+    position: relative;
+
+}
+.list_cata_wrap_item .all_list>span{
+    margin-left: 7px;
+    display: inline-block;
+    color: #fefefc;
+    cursor: pointer;
+}
+.list_cata_wrap_item .all_list .pic_top{
+    display: inline-block;
+    width: 8px;
+    height: 7px;
+    background:  url("../../img/new/attribute_bg.png") -6px -77px no-repeat;
+}
+.hover .pic_top{
+    background:  url("../../img/new/attribute_bg.png") -21px -96p no-repeat;
+}
+.hover .all_list{
+    background:  url("../../img/new/attribute_cur.png") 0 0/100% 100% no-repeat;
+}
+.list_cata_wrap_down{
+    display: none;
+    width: 800px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 1;
+}
+.hover .list_cata_wrap_down{
+    display: block;
+}
+.list_cata_wrap_down_list{
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 2px;
+}
+.list_cata_wrap_down_list>li{
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left:9px ;
+}
+.list_cata_wrap_down_list>li>a{
+    padding-right: 15px;
+    padding-left:5px;
+   
+    color:#000;
+}
+.list_cata_wrap_down_list>li>.jia{
+     display: block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 14px;
+      right: 3px;
+      background-color:red;
+      cursor: pointer;
+      background:url("../../img/new/attribute_bg.png") -7px -58px no-repeat;
+}     
+
+/* 筛选start */
+
+.filter{
+    margin-top: 8px;
+    background-color: #fff;
+    height: 60px;
+}
+.filter ul{
+    height: 27px;
+    float: left;
+}
+.filter_item{
+    position: relative;
+    float: left;  
+    width: 60px;
+    height: 25px;
+    border: 1px solid #c9c9c9;
+    border-right:0;
+    text-align: center;
+    font-size: 12px;
+}
+.filter_item:last-child{
+   border-right: 1px solid #c9c9c9;
+}
+.filter .active{
+     background-color: #c69c6d;
+}
+.filter .active a{
+    color: #fff!important;
+}
+.filter_item a{
+    color: #000;
+     line-height: 25px;
+}
+.filter_item .iconfont{
+    position: absolute;
+    top:0px;
+    left: 44px;
+    display: block;
+    width: 10px;
+    height: 27px;
+}
+.filter_item .icon-default{
+    background:  url("../../img/new/brandstore_share.png") -235px -231px no-repeat;
+}
+.active .icon-default{
+    background:  url("../../img/new/brandstore_share.png") -274px -231px no-repeat;
+}
+.filter_item .icon-fall{
+  
+    height: 25px;
+   background: url("../../img/new/brandstore_share.png") no-repeat -193px -231px;
+}
+.active .icon-fall{
+   background: url("../../img/new/brandstore_share.png") no-repeat -314px -230px;
+}
+.filter_item:hover a{
+    color: #c69c6d;
+    
+}
+.filter_tip{
+    float: right;
+    height: 60px;
+    line-height:60px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.filter_tip i{
+    padding: 0 10px;
+    font-style:normal;
+    color: red;
+}
+/* 商品列表 start */
+.goodsList_area{
+    width: 1027px;
+    margin: 10px auto;
+}
+.goodsList_area .goods{
+    float: left;
+    width: 226px;
+    margin: 0 15px 26px;
+    background-color: #fff;
+}
+.goodsList_area .goods:hover{
+    box-shadow: #a7a7a7 0px 4px 10px;
+}
+.goodsList_area .goods:hover .goods_content{
+    background-color: #e0e0e0;
+}
+.goods_content{
+    width: 226px;
+    height: 73px;
+    padding-bottom: 20px;
+}
+.goodsList_area .goods_img{
+    
+    padding:0 3px;
+}
+.goodsList_area .goods_img>img{
+    width: 220px;
+}
+.goodsList_area .goods_like{
+    position: relative;
+    width: 226px;
+    height: 48px;
+    line-height: 48px;
+    text-align: right;
+}
+.goodsList_area .goods_like>i{
+    display: block;
+    position: absolute;
+    right:28px;
+    top:18px;
+    width: 18px;
+    height: 14px;
+    background: url("../../img/new/new_5luxbg.png") -478px -57px no-repeat;
+}
+.goodsList_area .goods_like .like{
+     background: url("../../img/new/new_5luxbg.png") -454px -57px no-repeat;
+}
+.goodsList_area .goods_like>span{
+    color: #757272;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.goodsList_area .goods .goods_content>p{
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.goodsList_area .goods .goods_title>a{
+    color: #050000;
+    font-weight: 700;
+    font-size: 12px;
+}
+.goodsList_area .goods .goods_state>a{
+    color: #000;
+    font-size: 12px;
+}
+.goodsList_area .goods .goods_price>span{
+    color: #c98702;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+} 
+/* 分页 start */
+.pages_box{
+    width: 100%;
+    padding:70px 0;
+    height: 30px;
+    text-align: center;
+}
+.pase_content{
+   height: 30px;
+   display: inline-block;
+}
+.pages,.pages_item,.more{
+    float: left;
+}
+.pages_item{
+    border: 1px solid #c69c6d;
+    margin: 0 4px;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    width: 62px;
+    cursor: pointer;
+   
+}
+.pages_item>a {
+    color:#333;
+}
+.pages_item:hover{
+    background-color: #c69c6d;
+}
+.pages{
+    height: 30px;
+}
+.pages_item:hover a{
+    color: #fff;
+}
+.pages .active{
+    background-color: #c69c6d;
+}
+.pages .active>a{
+     color: #fff;
+}
